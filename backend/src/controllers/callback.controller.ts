@@ -25,12 +25,16 @@ export class CallbackController {
         message: "Callback request submitted successfully.",
         data: callback,
       });
-    } catch (error) {
+    } catch (error: any) {
+      console.error("========== CALLBACK ERROR ==========");
       console.error(error);
+      console.error("Message:", error?.message);
+      console.error("Stack:", error?.stack);
+      console.error("===================================");
 
       return res.status(500).json({
         success: false,
-        message: "Internal Server Error",
+        message: error?.message || "Internal Server Error",
       });
     }
   }
@@ -44,12 +48,12 @@ export class CallbackController {
         count: callbacks.length,
         data: callbacks,
       });
-    } catch (error) {
+    } catch (error: any) {
       console.error(error);
 
       return res.status(500).json({
         success: false,
-        message: "Internal Server Error",
+        message: error?.message || "Internal Server Error",
       });
     }
   }
@@ -71,12 +75,12 @@ export class CallbackController {
         success: true,
         data: callback,
       });
-    } catch (error) {
+    } catch (error: any) {
       console.error(error);
 
       return res.status(500).json({
         success: false,
-        message: "Internal Server Error",
+        message: error?.message || "Internal Server Error",
       });
     }
   }
@@ -91,12 +95,12 @@ export class CallbackController {
         success: true,
         message: "Callback deleted successfully.",
       });
-    } catch (error) {
+    } catch (error: any) {
       console.error(error);
 
       return res.status(500).json({
         success: false,
-        message: "Internal Server Error",
+        message: error?.message || "Internal Server Error",
       });
     }
   }
@@ -120,12 +124,12 @@ export class CallbackController {
         message: "Status updated successfully.",
         data: callback,
       });
-    } catch (error) {
+    } catch (error: any) {
       console.error(error);
 
       return res.status(500).json({
         success: false,
-        message: "Internal Server Error",
+        message: error?.message || "Internal Server Error",
       });
     }
   }
