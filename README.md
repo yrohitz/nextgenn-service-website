@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # 🚀 NextGenn Technologies
@@ -60,5 +61,30 @@ Within **2 days of deployment**, the website started receiving genuine customer 
 - Vite
 - React Query
 - Wouter
+
+---
+
+## Backend
+
+- 🟢 Node.js
+- Express.js
+- TypeScript
+- Prisma ORM
+
+---
+
+## Database
+
+- 🗄 PostgreSQL
+- Neon Database
+
+---
+
+## Deployment
+
+- ▲ Vercel (Frontend)
+- 🚀 Render (Backend)
+- 🌍 GoDaddy (Domain)
+- ☁️ Neon (Database)
 
 ---
