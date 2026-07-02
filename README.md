@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # 🚀 NextGenn Technologies
@@ -124,3 +123,144 @@ images/homepage.png
 ```
 
 ---
+
+## 🔐 Admin Login
+
+> Add Login Screenshot
+
+```
+images/login.png
+```
+
+---
+
+## 📊 Admin Dashboard
+
+> Add Dashboard Screenshot
+
+```
+images/dashboard.png
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/yourusername/nextgenn-service-website.git
+
+cd nextgenn-service-website
+```
+
+---
+
+## Frontend
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+---
+
+## Backend
+
+```bash
+cd backend
+
+npm install
+
+npx prisma generate
+
+npm run dev
+```
+
+---
+
+# 🔑 Environment Variables
+
+Backend
+
+```env
+DATABASE_URL=
+
+JWT_SECRET=
+
+PORT=
+
+CLIENT_URL=
+```
+
+Frontend
+
+```env
+VITE_API_URL=
+```
+
+---
+
+# 📡 API Endpoints
+
+## Callback
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | /api/callback | Create Callback |
+| GET | /api/callback | Get All Requests |
+| PATCH | /api/callback/:id/status | Update Status |
+| DELETE | /api/callback/:id | Delete Request |
+
+---
+
+# 📈 Future Improvements
+
+- Email Notifications
+- SMS Notifications
+- Analytics Dashboard
+- Appointment Booking
+- Admin Roles
+- Customer Authentication
+- Payment Gateway
+- Service Tracking
+- PWA Support
+
+---
+
+# 🌍 Live Demo
+
+### Website
+
+https://www.nextgenntechnologies.in
+
+---
+
+# 👨‍💻 Author
+
+**Rohit Singh**
+
+GitHub:
+https://github.com/yrohitz
+
+LinkedIn:
+https://www.linkedin.com/in/YOUR-LINKEDIN/
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+It motivates me to build more real-world projects.
+
+---
+
+<div align="center">
+
+Made with ❤️ using React, Node.js and PostgreSQL
+
+</div>
