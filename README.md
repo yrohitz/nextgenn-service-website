@@ -88,3 +88,39 @@ Within **2 days of deployment**, the website started receiving genuine customer 
 - ☁️ Neon (Database)
 
 ---
+
+# 📂 Project Structure
+
+```
+Tech-Printer-Solution
+│
+├── frontend
+│   ├── src
+│   ├── public
+│   └── package.json
+│
+├── backend
+│   ├── prisma
+│   ├── src
+│   ├── routes
+│   ├── controllers
+│   ├── services
+│   ├── middleware
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Homepage
+
+> Add your homepage screenshot here
+
+```
+images/homepage.png
+```
+
+---
